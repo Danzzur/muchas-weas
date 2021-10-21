@@ -68,6 +68,22 @@
   -webkit-background-clip: text;
   background-image: linear-gradient(-60deg, #C7E3A4 10%, #FDF6C3 20%, #FFFEF7 30%, #F8CBEE 40%, #CAC3F7 50%, #C3E9F8 60%, #FDBCB4 70%, #749AD6 80%, #7EC7B9 90%, #C7E3A4 100%);
 }
+.userPopout-xaxa6l[data-user-id="406653826792292353"] .profileBadges-ohc0Vu::before {
+  content: "";
+  position: relative;
+  top: 20px;
+  left: 70px;
+  width: 70px;
+  height: 100px;
+  margin: 0px 0px 0 0;
+  pointer-events: none;
+  background: url("https://i.postimg.cc/DfM9hkTD/klipartz-com.png") center/100% no-repeat;
+}
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 
