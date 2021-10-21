@@ -28,7 +28,7 @@
   background-image: linear-gradient(-60deg, #004C99 10%, #53D6C2 20%, #3AAFE5 30%, #0A70DC 40%, #5712D8 50%, #6B3BC6 60%, #8246F2 70%, #8B51B9 80%, #D354E5 90%, #004C99 100%);
 }
 @keyframes shine-reversed {
-  to { background-position: -300% center;  
+  to { background-position: 300% center;  
 }
 
 /*toktokbychim*/
@@ -59,5 +59,5 @@
   background-image: linear-gradient(-60deg, #C7E3A4 10%, #FDF6C3 20%, #FFFEF7 30%, #F8CBEE 40%, #CAC3F7 50%, #C3E9F8 60%, #FDBCB4 70%, #749AD6 80%, #7EC7B9 90%, #C7E3A4 100%);
 }
 @keyframes shine-reversed {
-  to { background-position: -300% center;  
+  to { background-position: 300% center;  
 }
