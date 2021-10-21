@@ -27,6 +27,15 @@
   -webkit-background-clip: text;
   background-image: linear-gradient(-60deg, #004C99 10%, #53D6C2 20%, #3AAFE5 30%, #0A70DC 40%, #5712D8 50%, #6B3BC6 60%, #8246F2 70%, #8B51B9 80%, #D354E5 90%, #004C99 100%);
 }
+.userPopout-xaxa6l[data-user-id="544520937077473314"] .profileBadges-ohc0Vu::before {
+  content: "";
+  position: relative;
+  width: 80px;
+  height: 40px;
+  margin: 0px 0px 0 0;
+  pointer-events: none;
+  background: url("https://1000marcas.net/wp-content/uploads/2020/03/Nightwing-Logo-1.png") center/100% no-repeat;
+}
 
 /*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
