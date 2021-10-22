@@ -81,7 +81,7 @@
 }
 
 
-
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 /*MESSIER*/
@@ -103,12 +103,24 @@
   -webkit-background-clip: text;
   background-image: linear-gradient(-60deg, #9F39E9 20%, #F12A3E 50%, #4D586B 80%, #9F39E9 100%);
 }
-@keyframes shine-reversed {
-  to { background-position: 300% center; }
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*Valorant*/
+
+.membersGroup-v9BXpm[aria-label*="Valorant"] ~ .member-3-YXUe .roleColor-rz2vM0[style="color: rgb(182, 21, 21);"] {
+  color: transparent !important;
+  font-weight: bold;
+  background-size: 300%;
+  background-image: linear-gradient(-60deg, #581845 10%, #900C3F 30%, #C70039 50%, #FF5733 70%, #FFC300 80%, #581845 100%);
+  animation: shine-reversed 10s linear infinite;
+  -webkit-background-clip: text;
 }
 
 
-
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
 /*BOTS*/
