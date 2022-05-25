@@ -31,7 +31,7 @@
   position: absolute;
   height: 20px;
   width: 269px;
-  top: -20px;
+  top: -13px;
   left: 0;
   background: url("https://nyri4.github.io/Comfy/assets/wave.svg");
   background-size: 269px 22px;
@@ -39,12 +39,26 @@
   animation-delay: 0s;
   opacity: 1;
 }
+:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L .headerTextNormal-Z8we9g::before {
+  content: "";
+  position: absolute;
+  height: 21px;
+  z-index: 1;
+  width: 269px;
+  top: -13px;
+  left: 0;
+  background: var(--background-secondary);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
+  animation: animate2 4s linear infinite;
+  animation-delay: 0s;
+  opacity: 1;
+}
 @keyframes animate2 {
   0% {
-    background-position-x: 268px;
+    -webkit-mask-position-x: 268px;
   }
   100% {
-    background-position-x: 0;
+    -webkit-mask-position-x: 0;
   }
 }
 :root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L::before {
@@ -56,16 +70,19 @@
   left: 0;
   top: 0;
   background: #7289da;
+  background: var(--playing);
 }
 :root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L::after {
   content: "";
   position: absolute;
-  height: 20px;
+  height: 21px;
+  z-index: 2;
   width: 269px;
-  top: -20px;
+  top: -13px;
   left: 0;
-  background: url("https://nyri4.github.io/Comfy/assets/wave_playing.svg");
-  background-size: 269px 22px;
+  background: #7289da;
+  background: var(--playing);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate 6s linear infinite;
   animation-delay: 0s;
   opacity: 1;
@@ -79,29 +96,31 @@
   left: 0;
   top: 0;
   background: #1db954;
+  background: var(--listening);
 }
 :root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L .timeBarUserPopout-qLXZaR::after {
   content: "";
   position: absolute;
-  height: 20px;
+  height: 21px;
   width: 269px;
-  top: -20px;
+  top: -13px;
   left: 0;
-  z-index: 1;
-  background: url("https://nyri4.github.io/Comfy/assets/wave_spotify.svg");
-  background-size: 269px 22px;
+  z-index: 3;
+  background: #1db653;
+  background: var(--listening);
+  -webkit-mask-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="268" height="21" viewBox="0 0 268 21"><path d="M0 21V7.19143C0 7.19143 35.3844 -2.31216 79.4578 0.530784C126.044 1.7492 142.689 13.564 202.466 14.5019C242.561 14.5019 268 7.35388 268 7.35388V21H0Z"/></svg>');
   animation: animate 6s linear infinite;
   animation-delay: 0s;
 }
 @keyframes animate {
   0% {
-    background-position-x: 0;
+    -webkit-mask-position-x: 0;
   }
   100% {
-    background-position-x: 268px;
+    -webkit-mask-position-x: 268px;
   }
 }
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L .spotifyIcon-2J9kSv {
+:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L .platformIcon-k3yytQ {
   display: none;
 }
 :root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .activity-1gTu-L + h3 {
@@ -130,40 +149,4 @@
   border: solid var(--background-tertiary);
   border-width: 0 3px 3px 0;
   border-radius: 0 0 8px 0;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .role-2TIOKu {
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  border: solid;
-  border-width: 0 0 0 3px;
-  border-radius: 1px 3px 3px 1px;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .role-2TIOKu .roleCircle-1EgnFN {
-  width: var(--role-circle) !important;
-  height: var(--role-circle) !important;
-}
-:root .userPopout-2j1gM4 .body-2wLx-E .bodyInnerWrapper-2bQs1k .role-2TIOKu .roleCircle-1EgnFN::before {
-  position: absolute;
-  content: "";
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: inherit;
-  opacity: 0.3;
-  z-index: -1;
-}
-
-/*scroll bar*/
-
-::-webkit-scrollbar .content-1gYQeQ { margin: 0 !important; border-radius: 0; }.mainContent-20q_Hp { padding-left: 8px;}.container-1oeRFJ { margin: 0; max-width: unset; }.layout-1qmrhw { border-radius: 0; padding: 0 16px;}.unread-36eUEm { z-index: 1;} .buttons-uaqb-5 { padding-right: 10px !important;}
-
-.container-6sXIoE { border-bottom: none !important; margin-bottom: 0 !important;}.container-6sXIoE .timeline-UWmgAx { position: relative !important;}.container-6sXIoE .bar-g2ZMIm { position: absolute !important; bottom: -6px !important; left: -8px !important; width: 240px !important; height: 53px !important;margin: 0 !important;-webkit-mask-image: linear-gradient(0.25turn, #0008, #0002) !important;mask-image: linear-gradient(0.25turn, #0008, #0002) !important;border-radius: 0 !important;}.barFill-Dhkah7 { border-radius: 0 !important;}.container-6sXIoE.maximized-vv2Wr0 .bar-g2ZMIm { height: 88px !important;}.container-6sXIoE .button-12Fmur:hover { background-color: transparent !important;}.barFill-Dhkah7, .timeline-UWmgAx:hover .barFill-Dhkah7 { background: var(--spotify-color) !important;}.inner-WRV6k5 { z-index: 1 !important;}.barText-lmqc5O, .grabber-7sd5f5 { display: none !important;}
-
-
-:root {
-/* Default value : #1EDC62 */
-
---spotify-color: #1EDC62;
 }
